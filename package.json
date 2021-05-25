@@ -1,0 +1,12 @@
+{
+  "name": "Typescript_blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Hayoung079/Typescript_blockchain.git",
+  "author": "hayoung <gksyddl22@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}

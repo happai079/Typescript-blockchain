@@ -7,6 +7,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "prestart": "tsc"
+    "prestart": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "dependencies": {
+    "tsc-watch": "^4.2.9"
   }
 }
